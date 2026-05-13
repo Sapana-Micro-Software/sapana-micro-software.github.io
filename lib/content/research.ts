@@ -1,0 +1,60 @@
+import type { HubLink } from "./types";
+
+export const researchHubs: HubLink[] = [
+  {
+    title: "DDRKAM",
+    description:
+      "Data-driven Runge–Kutta and Adams methods — ODE/PDE solver framework with hierarchical architectures and rigorous benchmarks.",
+    href: "https://sapana-micro-software.github.io/ddrkam/",
+    kind: "research",
+    tags: ["Numerics", "ODE/PDE"],
+  },
+  {
+    title: "Merry-Go-Round Splay Trees",
+    description:
+      "Advanced tree structures and algorithms — source and licensing on GitHub.",
+    href: "https://github.com/Sapana-Micro-Software/merry-go-round-splay-trees",
+    kind: "repository",
+    tags: ["Data structures", "GitHub"],
+  },
+  {
+    title: "Progressive Learning Chess Engine",
+    description:
+      "Hybrid Bayesian–LSTM architecture with curriculum learning, spaced repetition, and Pavlovian conditioning.",
+    href: "https://sapana-micro-software.github.io/progressive-learning-chess-engine/",
+    kind: "research",
+    tags: ["ML", "Chess"],
+  },
+  {
+    title: "Lossless Bayesian Networks",
+    description:
+      "Exact probabilistic inference in C++ with macOS visualization — lossless belief propagation and diagnostics.",
+    href: "https://sapana-micro-software.github.io/lossless-bayesian-networks/",
+    kind: "research",
+    tags: ["C++", "Inference"],
+  },
+  {
+    title: "Mahajan Masterpiece",
+    description:
+      "Research hub and documentation for the Mahajan Masterpiece project.",
+    href: "https://sapana-micro-software.github.io/mahajan_masterpiece/",
+    kind: "research",
+    tags: ["Research"],
+  },
+  {
+    title: "Multi-Model Agentic AI",
+    description:
+      "Fault-tolerant, distributed multi-agent architecture integrating LLMs with MDL-normalized memory and rigorous protocols.",
+    href: "https://sapana-micro-software.github.io/Multi-Model-Agentic-AI/",
+    kind: "research",
+    tags: ["Agents", "Distributed"],
+  },
+  {
+    title: "Solve Genomics",
+    description:
+      "DNA sequence alignment and pattern matching — 25+ algorithms with benchmarks and analysis.",
+    href: "https://sapana-micro-software.github.io/solve-genomics/",
+    kind: "research",
+    tags: ["Genomics", "Algorithms"],
+  },
+];
