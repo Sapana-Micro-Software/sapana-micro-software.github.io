@@ -22,7 +22,15 @@ export interface DeveloperListing {
   href: string;
 }
 
-export interface ProductHighlight {
-  title: string;
-  tagline: string;
-}
+export type ProductHighlight =
+  | {
+      title: string;
+      tagline: string;
+      kind?: "app-store";
+    }
+  | {
+      title: string;
+      tagline: string;
+      kind: "web";
+      href: string;
+    };

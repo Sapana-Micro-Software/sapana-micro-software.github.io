@@ -36,4 +36,11 @@ export const productHighlights: ProductHighlight[] = [
     title: "Prayer-Track",
     tagline: "A customizable rosary app for Mac.",
   },
+  {
+    title: "Paper Highlighter",
+    tagline:
+      "Turn any PDF into a narrated broadcast with synchronized neon highlighting.",
+    kind: "web",
+    href: "https://sapana-micro-software.github.io/paper-highlighter/",
+  },
 ];

@@ -21,26 +21,41 @@ export function OfferingsSection(props: {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-6 lg:grid-cols-3">
-          {highlights.map((item) => (
-            <div
-              key={item.title}
-              className="rounded-2xl border border-white/10 bg-white/[0.03] p-6"
-            >
-              <h3 className="text-lg font-semibold text-zinc-50">{item.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-zinc-400">
-                {item.tagline}
-              </p>
-              <a
-                href={developer.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-5 inline-flex text-sm font-semibold text-teal-300 hover:text-teal-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-400"
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {highlights.map((item) => {
+            const isWeb = item.kind === "web";
+            const linkHref = isWeb ? item.href : developer.href;
+            const linkLabel = isWeb ? "Open web product →" : "View on App Store →";
+
+            return (
+              <div
+                key={item.title}
+                className="rounded-2xl border border-white/10 bg-white/[0.03] p-6"
               >
-                View on App Store →
-              </a>
-            </div>
-          ))}
+                {isWeb ? (
+                  <span className="inline-flex rounded-full bg-cyan-400/15 px-2.5 py-0.5 text-xs font-medium tracking-wide text-cyan-200 ring-1 ring-cyan-400/30">
+                    Web product
+                  </span>
+                ) : null}
+                <h3
+                  className={`text-lg font-semibold text-zinc-50 ${isWeb ? "mt-3" : ""}`}
+                >
+                  {item.title}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-zinc-400">
+                  {item.tagline}
+                </p>
+                <a
+                  href={linkHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-5 inline-flex text-sm font-semibold text-teal-300 hover:text-teal-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-400"
+                >
+                  {linkLabel}
+                </a>
+              </div>
+            );
+          })}
         </div>
 
         <div className="mt-12 rounded-2xl border border-teal-400/25 bg-gradient-to-r from-teal-400/10 via-cyan-400/5 to-transparent p-6 sm:p-8">
