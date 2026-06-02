@@ -57,4 +57,12 @@ export const researchHubs: HubLink[] = [
     kind: "research",
     tags: ["Genomics", "Algorithms"],
   },
+  {
+    title: "God's Algorithm for Rubik's Cube",
+    description:
+      "Empirical benchmark results comparing 30+ optimal and heuristic search methods on puzzle instances — Demaine et al. Section 6 optimal search with wall-clock analysis.",
+    href: "https://sapana-micro-software.github.io/gods-algorithm-for-rubiks-cube/results/",
+    kind: "research",
+    tags: ["Search", "Benchmarks"],
+  },
 ];
