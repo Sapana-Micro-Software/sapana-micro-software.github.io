@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { siteMeta } from "@/lib/content";
+import { siteAssets, siteMeta } from "@/lib/content";
 
 import "./globals.css";
 
@@ -30,6 +30,11 @@ export const metadata: Metadata = {
     url: siteMeta.canonicalUrl,
     siteName: siteMeta.title,
     type: "website",
+    images: [{ url: siteAssets.logoUrl, alt: siteAssets.logoAlt }],
+  },
+  icons: {
+    icon: siteAssets.logoUrl,
+    apple: siteAssets.logoUrl,
   },
 };
 

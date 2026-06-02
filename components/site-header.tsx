@@ -1,3 +1,7 @@
+import Image from "next/image";
+
+import { siteAssets } from "@/lib/content";
+
 const nav = [
   { href: "#offerings", label: "Apps" },
   { href: "#research", label: "Research" },
@@ -10,9 +14,18 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
         <a
           href="#top"
-          className="font-semibold tracking-tight text-zinc-50 transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal-400"
+          className="flex items-center gap-3 font-semibold tracking-tight text-zinc-50 transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal-400"
         >
-          Sapana Micro Software
+          <Image
+            src={siteAssets.logoUrl}
+            alt={siteAssets.logoAlt}
+            width={44}
+            height={44}
+            className="h-11 w-11 shrink-0 rounded-full ring-1 ring-white/10"
+            priority
+          />
+          <span className="hidden sm:inline">Sapana Micro Software</span>
+          <span className="sm:hidden">Sapana</span>
         </a>
         <nav aria-label="Primary">
           <ul className="flex flex-wrap items-center gap-2 sm:gap-4">

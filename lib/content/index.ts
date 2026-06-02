@@ -1,3 +1,16 @@
-export { appStoreDeveloper, leadership, productHighlights, siteMeta } from "./site";
+export {
+  appStoreDeveloper,
+  leadership,
+  productHighlights,
+  siteAssets,
+  siteMeta,
+} from "./site";
 export { researchHubs } from "./research";
-export type { DeveloperListing, HubKind, HubLink, Leadership, ProductHighlight } from "./types";
+export type {
+  DeveloperListing,
+  HubKind,
+  HubLink,
+  Leadership,
+  ProductHighlight,
+  SiteAssets,
+} from "./types";

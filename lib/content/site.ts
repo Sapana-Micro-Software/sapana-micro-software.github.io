@@ -1,4 +1,9 @@
-import type { DeveloperListing, Leadership, ProductHighlight } from "./types";
+import type {
+  DeveloperListing,
+  Leadership,
+  ProductHighlight,
+  SiteAssets,
+} from "./types";
 
 export const siteMeta = {
   title: "Sapana Micro Software",
@@ -7,11 +12,18 @@ export const siteMeta = {
   canonicalUrl: "https://sapana-micro-software.github.io",
 } as const;
 
+export const siteAssets: SiteAssets = {
+  logoUrl: "/sapana-logo.png",
+  logoAlt: "Sapana Micro Software circular logo",
+};
+
 export const leadership: Leadership = {
   chiefEngineer: {
-    name: "Shyamal Chandra",
+    name: "Shyamal Suhana Chandra",
     role: "Chief Engineer (Manager)",
     profileUrl: "https://shyamalschandra.github.io/",
+    portraitUrl: "/shyamal-chandra.png",
+    portraitAlt: "Portrait of Shyamal Suhana Chandra, Chief Engineer (Manager)",
   },
 };
 

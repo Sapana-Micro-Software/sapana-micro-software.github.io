@@ -13,7 +13,14 @@ export interface Leadership {
     name: string;
     role: string;
     profileUrl: string;
+    portraitUrl: string;
+    portraitAlt: string;
   };
+}
+
+export interface SiteAssets {
+  logoUrl: string;
+  logoAlt: string;
 }
 
 export interface DeveloperListing {
