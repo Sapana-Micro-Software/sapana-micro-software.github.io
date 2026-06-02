@@ -43,4 +43,11 @@ export const productHighlights: ProductHighlight[] = [
     kind: "web",
     href: "https://sapana-micro-software.github.io/paper-highlighter/",
   },
+  {
+    title: "Concentric Vector Chord",
+    tagline:
+      "A kernelized vector distributed hash table that preserves semantic locality across Euclidean and kernel-defined embedding spaces—without a centralized vector index.",
+    kind: "web",
+    href: "https://sapana-micro-software.github.io/concentric_vector_chord/",
+  },
 ];
