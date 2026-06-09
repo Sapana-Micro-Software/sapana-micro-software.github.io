@@ -73,4 +73,12 @@ export const researchHubs: HubLink[] = [
     kind: "research",
     tags: ["Browser", "SwiftUI"],
   },
+  {
+    title: "Polysort",
+    description:
+      "N-way adaptive merge sort in ANSI C with scalable merge arity, qsort-compatible APIs, benchmarks, and distributed sorting extensions.",
+    href: "https://sapana-micro-software.github.io/polysort-c/",
+    kind: "research",
+    tags: ["C", "Sorting"],
+  },
 ];
