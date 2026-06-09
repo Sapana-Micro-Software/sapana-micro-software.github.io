@@ -65,4 +65,12 @@ export const researchHubs: HubLink[] = [
     kind: "research",
     tags: ["Search", "Benchmarks"],
   },
+  {
+    title: "Morphing Browser I",
+    description:
+      "Per-origin macOS browser engine selection that benchmarks Nitro, V8, and SpiderMonkey inside one SwiftUI shell and chooses the best engine for each site.",
+    href: "https://sapana-micro-software.github.io/Morphing-Browser-I/",
+    kind: "research",
+    tags: ["Browser", "SwiftUI"],
+  },
 ];
