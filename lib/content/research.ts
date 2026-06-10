@@ -89,4 +89,12 @@ export const researchHubs: HubLink[] = [
     kind: "research",
     tags: ["Memory", "Compression"],
   },
+  {
+    title: "Idea2Circuit",
+    description:
+      "Automated natural-language-to-hardware pipeline using LLM-guided C generation, recursive compilation, static tests, and circuit synthesis across target architectures.",
+    href: "https://sapana-micro-software.github.io/idea2circuit/",
+    kind: "research",
+    tags: ["Hardware", "LLM"],
+  },
 ];
