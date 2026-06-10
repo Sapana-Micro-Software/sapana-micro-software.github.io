@@ -81,4 +81,12 @@ export const researchHubs: HubLink[] = [
     kind: "research",
     tags: ["C", "Sorting"],
   },
+  {
+    title: "Kernel Squash",
+    description:
+      "Pointer compression research covering Tiny Pointers and Kernelized Squashing for up to 50% memory savings, O(1) operations, and improved cache performance.",
+    href: "https://sapana-micro-software.github.io/kernel-squash/",
+    kind: "research",
+    tags: ["Memory", "Compression"],
+  },
 ];
