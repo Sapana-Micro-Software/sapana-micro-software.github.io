@@ -97,4 +97,12 @@ export const researchHubs: HubLink[] = [
     kind: "research",
     tags: ["Hardware", "LLM"],
   },
+  {
+    title: "Yankovinator",
+    description:
+      "AI-powered parody generator with word-by-word syllable matching, automatic rhyme detection, semantic coherence, and local Ollama LLM integration via Swift and NaturalLanguage.",
+    href: "https://shyamalschandra.github.io/Yankovinator/",
+    kind: "research",
+    tags: ["Swift", "NLP", "LLM"],
+  },
 ];
