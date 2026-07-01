@@ -105,4 +105,12 @@ export const researchHubs: HubLink[] = [
     kind: "research",
     tags: ["Swift", "NLP", "LLM"],
   },
+  {
+    title: "TetrisⓇ AI",
+    description:
+      "Pluggable Tetris AI workbench in Swift 6 — bin-packing heuristics, Double DQN with ARC episodic replay, exact offline DP, and an industry-track paper with CPU/GPU acceleration benchmarks.",
+    href: "https://sapana-micro-software.github.io/tetris-ai/",
+    kind: "research",
+    tags: ["Swift", "Deep RL", "Benchmarks"],
+  },
 ];
