@@ -113,4 +113,20 @@ export const researchHubs: HubLink[] = [
     kind: "research",
     tags: ["Swift", "Deep RL", "Benchmarks"],
   },
+  {
+    title: "Supreme Court Agentic AI",
+    description:
+      "Ollama-Judge — a Rust multi-agent framework simulating courtroom adjudication with nine Supreme Court justices, twelve jurors, and the Super Why transparent reasoning engine via local Ollama LLMs.",
+    href: "https://sapana-micro-software.github.io/supreme-court-agentic-ai/",
+    kind: "research",
+    tags: ["Rust", "Agents", "Legal AI"],
+  },
+  {
+    title: "Chandra-Crypt",
+    description:
+      "GPU-accelerated homomorphically encrypted secure enclave runtime — BFV leveled FHE, homomorphic VM, AES-GCM sealed memory, remote attestation, and Metal/wgpu NTT acceleration.",
+    href: "https://sapana-micro-software.github.io/chandra-crypt/",
+    kind: "research",
+    tags: ["FHE", "GPU", "Security"],
+  },
 ];
