@@ -12,10 +12,10 @@ export const researchHubs: HubLink[] = [
   {
     title: "Merry-Go-Round Splay Trees",
     description:
-      "Advanced tree structures and algorithms — source and licensing on GitHub.",
-    href: "https://github.com/Sapana-Micro-Software/merry-go-round-splay-trees",
-    kind: "repository",
-    tags: ["Data structures", "GitHub"],
+      "B-Tree, dynamic N-way splay tree, and circular buffer splay structures with interactive visualizations and complexity proofs.",
+    href: "https://sapana-micro-software.github.io/merry-go-round-splay-trees/",
+    kind: "research",
+    tags: ["Data structures", "C++"],
   },
   {
     title: "Progressive Learning Chess Engine",
