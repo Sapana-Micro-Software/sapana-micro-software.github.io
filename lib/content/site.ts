@@ -72,7 +72,7 @@ export const productHighlights: ProductHighlight[] = [
   {
     title: "DNS Server MOS",
     tagline: "macOS menu bar DNS server.",
-    kind: "repository",
-    href: "https://github.com/shyamalschandra/dns-server-mos",
+    kind: "web",
+    href: "https://shyamalschandra.github.io/dns-server-mos/",
   },
 ];
