@@ -75,4 +75,11 @@ export const productHighlights: ProductHighlight[] = [
     kind: "web",
     href: "https://shyamalschandra.github.io/dns-server-mos/",
   },
+  {
+    title: "ALU GUBI CLI",
+    tagline:
+      "Gamified Universal Basic Income CLI for governments and NGOs — encrypted binaries implementing the public ALU GUBI charter.",
+    kind: "web",
+    href: "https://shyamalschandra.github.io/alu-gubi-cli/",
+  },
 ];
