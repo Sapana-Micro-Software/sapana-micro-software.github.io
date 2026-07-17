@@ -40,4 +40,10 @@ export type ProductHighlight =
       tagline: string;
       kind: "web";
       href: string;
+    }
+  | {
+      title: string;
+      tagline: string;
+      kind: "repository";
+      href: string;
     };

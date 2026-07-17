@@ -62,4 +62,17 @@ export const productHighlights: ProductHighlight[] = [
     kind: "web",
     href: "https://sapana-micro-software.github.io/concentric_vector_chord/",
   },
+  {
+    title: "Menu Bar VPN",
+    tagline:
+      "Industrial macOS WireGuard VPN — menu bar control, Tor onion routing, and binary-only Homebrew distribution.",
+    kind: "web",
+    href: "https://shyamalschandra.github.io/menu-bar-vpn/",
+  },
+  {
+    title: "DNS Server MOS",
+    tagline: "macOS menu bar DNS server.",
+    kind: "repository",
+    href: "https://github.com/shyamalschandra/dns-server-mos",
+  },
 ];

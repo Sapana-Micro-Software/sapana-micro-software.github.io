@@ -24,8 +24,14 @@ export function OfferingsSection(props: {
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {highlights.map((item) => {
             const isWeb = item.kind === "web";
-            const linkHref = isWeb ? item.href : developer.href;
-            const linkLabel = isWeb ? "Open web product →" : "View on App Store →";
+            const isRepository = item.kind === "repository";
+            const linkHref =
+              isWeb || isRepository ? item.href : developer.href;
+            const linkLabel = isWeb
+              ? "Open web product →"
+              : isRepository
+                ? "View on GitHub →"
+                : "View on App Store →";
 
             return (
               <div
@@ -36,9 +42,13 @@ export function OfferingsSection(props: {
                   <span className="inline-flex rounded-full bg-cyan-400/15 px-2.5 py-0.5 text-xs font-medium tracking-wide text-cyan-200 ring-1 ring-cyan-400/30">
                     Web product
                   </span>
+                ) : isRepository ? (
+                  <span className="inline-flex rounded-full bg-violet-400/15 px-2.5 py-0.5 text-xs font-medium tracking-wide text-violet-200 ring-1 ring-violet-400/30">
+                    Repository
+                  </span>
                 ) : null}
                 <h3
-                  className={`text-lg font-semibold text-zinc-50 ${isWeb ? "mt-3" : ""}`}
+                  className={`text-lg font-semibold text-zinc-50 ${isWeb || isRepository ? "mt-3" : ""}`}
                 >
                   {item.title}
                 </h3>
