@@ -26,7 +26,9 @@ export function OfferingsSection(props: {
             const isWeb = item.kind === "web";
             const isRepository = item.kind === "repository";
             const linkHref =
-              isWeb || isRepository ? item.href : developer.href;
+              isWeb || isRepository
+                ? item.href
+                : (item.href ?? developer.href);
             const linkLabel = isWeb
               ? "Open web product →"
               : isRepository

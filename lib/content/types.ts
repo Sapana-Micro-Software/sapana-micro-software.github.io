@@ -34,6 +34,8 @@ export type ProductHighlight =
       title: string;
       tagline: string;
       kind?: "app-store";
+      /** Per-app App Store URL; falls back to the developer listing when omitted. */
+      href?: string;
     }
   | {
       title: string;

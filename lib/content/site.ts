@@ -34,19 +34,27 @@ export const appStoreDeveloper: DeveloperListing = {
   href: "https://apps.apple.com/us/developer/sapana-micro-software/id1704558752",
 };
 
-/** Featured titles mirror the public developer listing; URLs resolve via the developer page. */
+/** Featured App Store titles link to their product pages; web products use their hub URLs. */
 export const productHighlights: ProductHighlight[] = [
   {
     title: "Rosary-Track-I",
     tagline: "A rosary app unlike any other.",
+    href: "https://apps.apple.com/us/app/rosary-track-i/id6758733703",
+  },
+  {
+    title: "mini-Rosary-Track-I",
+    tagline: "Smallest form-factor rosary for Apple Watch.",
+    href: "https://apps.apple.com/us/app/mini-rosary-track-i/id6814255250?platform=watch",
   },
   {
     title: "SMS-Water-Track-I",
-    tagline: "A customizable gardening timer.",
+    tagline: "A customizable gardening timer for Apple Watch.",
+    href: "https://apps.apple.com/us/app/sms-water-track-i/id6475321963?platform=watch",
   },
   {
     title: "Prayer-Track",
     tagline: "A customizable rosary app for Mac.",
+    href: "https://apps.apple.com/us/app/prayer-track/id6478422558?mt=12",
   },
   {
     title: "Paper Highlighter",
