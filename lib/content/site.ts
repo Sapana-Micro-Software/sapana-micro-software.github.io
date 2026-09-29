@@ -14,7 +14,8 @@ export const siteMeta = {
 
 export const siteAssets: SiteAssets = {
   logoUrl: "/sapana-logo.png",
-  logoAlt: "Sapana Micro Software circular logo",
+  logoAlt:
+    "Sapana Micro Software retro emblem with SMS cube, moon, and vintage computer",
 };
 
 export const leadership: Leadership = {
