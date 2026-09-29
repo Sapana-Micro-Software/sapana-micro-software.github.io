@@ -57,6 +57,11 @@ export const productHighlights: ProductHighlight[] = [
     href: "https://apps.apple.com/us/app/prayer-track/id6478422558?mt=12",
   },
   {
+    title: "Flying-Game-I",
+    tagline: "A 2D flying conquest for Mac — 100 levels of starship laser combat.",
+    href: "https://apps.apple.com/us/app/flying-game-i/id6794738400?mt=12",
+  },
+  {
     title: "Paper Highlighter",
     tagline:
       "Turn any PDF into a narrated broadcast with synchronized neon highlighting.",
