@@ -63,6 +63,11 @@ export const productHighlights: ProductHighlight[] = [
     href: "https://apps.apple.com/us/app/flying-game-i/id6794738400?mt=12",
   },
   {
+    title: "Golfing-Game-I",
+    tagline: "A golfing excursion — 100 courses with weather, clubs, and Game Center.",
+    href: "https://apps.apple.com/app/golfing-game-i/id6831314592",
+  },
+  {
     title: "Paper Highlighter",
     tagline:
       "Turn any PDF into a narrated broadcast with synchronized neon highlighting.",
