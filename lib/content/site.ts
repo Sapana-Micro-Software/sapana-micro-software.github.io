@@ -38,6 +38,11 @@ export const appStoreDeveloper: DeveloperListing = {
 /** Featured App Store titles link to their product pages; web products use their hub URLs. */
 export const productHighlights: ProductHighlight[] = [
   {
+    title: "Chew-Track-I",
+    tagline: "An AI-based chew tracker using computer vision and depth analysis.",
+    href: "https://apps.apple.com/us/app/chew-track-i/id6813095078",
+  },
+  {
     title: "Rosary-Track-I",
     tagline: "A rosary app unlike any other.",
     href: "https://apps.apple.com/us/app/rosary-track-i/id6758733703",
